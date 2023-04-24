@@ -1,2 +1,2 @@
 # Godot-Test
-GodotEngineの練習用
+*GodotEngineの練習用
