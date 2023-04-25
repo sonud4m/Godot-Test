@@ -30,6 +30,13 @@ func _update_moving(delta):
 		#Spaceキーでジャンプ
 		velocity.y = JUMP_POWER
 		
+	if Input.is_action_just_pressed("ui_right"):
+		#→ボタンで右移動
+		velocity.x = 200
+		
+	if Input.is_action_just_pressed("ui_left"):
+		#→ボタンで右移動
+		velocity.x = -200
 	if position.y < 0:
 		#画面上部にはみ出さないようにする
 		velocity.y = 100
